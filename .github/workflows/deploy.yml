@@ -29,7 +29,7 @@ jobs:
         run: npm i -g @antfu/ni
 
       - name: Install dependencies
-        run: nci  --allow-scripts
+        run: pnpm install --allow-scripts
 
       - name: Prepare deploy folder
         run: rm -rf dist && mkdir dist
