@@ -1,5 +1,12 @@
 {
   "name": "slidev-workspace-starter",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "playwright-chromium",
+      "vue-demi"
+    ]
+  },
   "version": "1.0.0",
   "description": "A workspace for Slidev presentations",
   "scripts": {
